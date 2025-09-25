@@ -55,3 +55,8 @@ def main():
                 print("Added Cheese Leleh")
             else:
                 print("Invalid choice, please try again.")
+
+    delivery_fee = 5.00
+    total_price = total_food_price + delivery_fee
+
+    est_time = random.randint(20, 45)
