@@ -75,5 +75,5 @@ def main():
     print("-" * 40) 
     print("Thank you for ordering with Grab!") 
  
-if name == "__main__": 
+if __name__ == "__main__": 
     main()
